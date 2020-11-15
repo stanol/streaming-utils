@@ -3,12 +3,12 @@ Overview
 
 This repo contains a set of utilities to start streaming with Ace Stream.
 
-Utilities themselves are wrappers (written in Python) around Ace Stream app which can be downloaded here: http://wiki.acestream.org/wiki/index.php/Download#Linux
+Utilities themselves are wrappers (written in Python) around Ace Stream app which can be downloaded here: https://wiki.acestream.media/Download#Linux
 
 You should be familiar with this info to understand what's happening:
 
-* http://wiki.acestream.org/wiki/index.php/Streaming
-* http://wiki.acestream.org/wiki/index.php/Create_HLS_Broadcast
+* https://wiki.acestream.media/Streaming
+* https://wiki.acestream.media/Create_HLS_Broadcast
 
 Features currently available:
 
@@ -104,7 +104,7 @@ It's a string which identifies you as a broadcaster. It's written to transport f
 Node access token
 =================
 
-It's a string which prevents unauthorized access to node's API interface (see http://wiki.acestream.org/wiki/index.php/AceStream_3.0/en#Node.27s_web-interface)
+It's a string which prevents unauthorized access to node's API interface (see https://wiki.acestream.media/AceStream_3.0/en#Node.27s_web-interface)
 
 
 Source node config
@@ -160,7 +160,7 @@ Data is sent by running ``src/monitor_node.py`` script.
 It collects data about each running node and sends it via HTTP POST request to the endpoint.
 For each running node a separate request is made.
 
-Info about collected data: http://wiki.acestream.org/wiki/index.php/AceStream_3.0/en#Monitoring
+Info about collected data: https://wiki.acestream.media/AceStream_3.0/en#Monitoring
 
 Nodes' metadata
 ===============
